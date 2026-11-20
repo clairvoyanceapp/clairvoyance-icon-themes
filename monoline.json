@@ -1,0 +1,47 @@
+{
+  "id": "monoline",
+  "name": "Monoline",
+  "description": "Linework glyphs in a single quiet tone, with accent-colored folders.",
+  "author": "Clairvoyance",
+  "icons": {
+    "folder": { "color": "var(--accent)" },
+    "file": { "color": "var(--text-muted)" },
+    "markdown": { "color": "var(--text-muted)" },
+    "code": { "color": "var(--text-muted)" },
+    "data": { "color": "var(--text-muted)" },
+    "image": { "color": "var(--text-muted)" },
+    "audio": { "color": "var(--text-muted)" },
+    "video": { "color": "var(--text-muted)" },
+    "pdf": { "color": "var(--text-muted)" },
+    "base": { "color": "var(--text-muted)" },
+    "link": { "color": "var(--text-muted)" },
+    "folderOpen": { "color": "var(--accent)" },
+    "office": { "lucide": "file-pen", "color": "var(--text-muted)" },
+    "archive": { "lucide": "file-archive", "color": "var(--text-muted)" },
+    "canvas": { "lucide": "shapes", "color": "var(--text-muted)" },
+    "binder": { "color": "var(--text-muted)" },
+    "hierarchy": { "color": "var(--text-muted)" },
+    "url": { "color": "var(--text-muted)" },
+    "report": { "color": "var(--text-muted)" },
+    "exhibit": { "color": "var(--text-muted)" },
+    "todo": { "color": "var(--text-muted)" },
+    "todoStaff": { "color": "var(--text-muted)" },
+    "statusTodo": { "lucide": "circle", "color": "#8b949e" },
+    "statusInProgress": { "lucide": "contrast", "color": "#d29922" },
+    "statusBlocked": { "lucide": "octagon-minus", "color": "#f85149" },
+    "statusReadyForReview": { "lucide": "eye", "color": "#58a6ff" },
+    "statusReviewed": { "lucide": "badge-check", "color": "#2dd4bf" },
+    "statusDone": { "lucide": "circle-check", "color": "#3fb950" },
+    "statusWontFix": { "lucide": "ban", "color": "#8b949e" },
+    "statusCanceled": { "lucide": "circle-x", "color": "#8b949e" },
+    "statusWorkingAsDesigned": { "lucide": "check-check", "color": "#a371f7" }
+  },
+  "extensions": {
+    ".sln": { "lucide": "layers" },
+    ".cmake": "code",
+    ".vcxproj.filters": "code"
+  },
+  "fileNames": {
+    "cmakelists.txt": "code"
+  }
+}
